@@ -8,7 +8,7 @@ const itemZipcode = document.getElementById("zipcode");
 
 // Get thailand
 const getThailand = async () => {
-  const response = await fetch("../data/thailand.json");
+  const response = await fetch("https://gist.githubusercontent.com/ChaiyachetU/a72a3af3c6561b97883d7af935188c6b/raw/0e9389fa1fc06b532f9081793b3e36db31a1e1c6/thailand.json");
 
   addresses = await response.json();
   //console.log(address);
